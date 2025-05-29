@@ -1,0 +1,12 @@
+__pycache__/
+dist/
+*.egg-info/
+build/
+*.pyc
+.venv/
+venv/
+lib/
+include/
+bin/
+pyvenv.cfg
+uv.lock
