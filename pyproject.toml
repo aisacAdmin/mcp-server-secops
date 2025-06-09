@@ -1,6 +1,6 @@
 [project]
 name = "mcp-server-secops"
-version = "0.1.0"
+version = "0.1.1"
 description = "Servidor MCP con herramientas de pentesting integradas"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -17,7 +17,7 @@ dependencies = [
 ]
 
 [project.scripts]
-mcp-server-secops = "mcp_server_secops:main"
+mcp-server-secops = "mcp_server_secops.__main__:main"
 
 [build-system]
 requires = ["hatchling"]

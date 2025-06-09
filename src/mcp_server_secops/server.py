@@ -19,7 +19,6 @@ from .tools.xsstrike import run_xsstrike
 from .tools.amass import amass_wrapper
 from .tools.dirsearch import dirsearch_wrapper
 from .tools.ipinfo import run_ipinfo
-from mcp.server.fastmcp import FastMCP
 
 # Create an MCP server
 mcp = FastMCP("Demo")
@@ -104,5 +103,3 @@ def register_tools(mcp, selected_tools, verbose=False):
             return dirsearch_wrapper(url, extensions, wordlist)
 
 
-if __name__ == "__main__":
-    mcp.run(transport="stdio")
